@@ -1,0 +1,39 @@
+To find the probability that the values rolled by two fair six-sided dice will be **different** and the sum of the two dice will be **6**, we can follow these steps:
+
+### Step 1: Total Possible Outcomes
+The total number of possible outcomes when rolling two six-sided dice is:
+\[
+6 \times 6 = 36
+\]
+This is the total number of outcomes when rolling two dice.
+
+### Step 2: Favorable Outcomes
+We need to identify all the pairs of values where:
+1. The sum of the two dice is 6.
+2. The values rolled by the dice are different.
+
+#### All possible outcomes where the sum is 6:
+- (1, 5)
+- (2, 4)
+- (3, 3)
+- (4, 2)
+- (5, 1)
+
+From these possibilities, we exclude the case where the values are the same (i.e., (3, 3)), because we are only interested in outcomes where the values on the two dice are **different**.
+
+The favorable outcomes are:
+- (1, 5)
+- (2, 4)
+- (4, 2)
+- (5, 1)
+
+### Step 3: Count the Favorable Outcomes
+There are 4 favorable outcomes: (1, 5), (2, 4), (4, 2), and (5, 1).
+
+### Step 4: Calculate the Probability
+The probability is the ratio of favorable outcomes to the total number of possible outcomes:
+\[
+\text{Probability} = \frac{4}{36} = \frac{1}{9}
+\]
+
+Thus, the probability that the values rolled by each die will be **different** and the sum of the two dice will be **6** is \(\frac{1}{9}\).
