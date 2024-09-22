@@ -1,0 +1,44 @@
+To find the probability that the sum of two six-sided dice is at most 9, we need to consider all the possible outcomes and the number of favorable outcomes where the sum is less than or equal to 9.
+
+### Step 1: Total Possible Outcomes
+Each die has 6 faces, so when rolling two dice, the total number of possible outcomes is:
+\[
+6 \times 6 = 36
+\]
+This is the total number of possible outcomes when rolling two six-sided dice.
+
+### Step 2: Favorable Outcomes
+Now, we need to count the outcomes where the sum of the two dice is at most 9. Let's list the possibilities for each sum:
+
+- Sum = 2: (1, 1)
+- Sum = 3: (1, 2), (2, 1)
+- Sum = 4: (1, 3), (2, 2), (3, 1)
+- Sum = 5: (1, 4), (2, 3), (3, 2), (4, 1)
+- Sum = 6: (1, 5), (2, 4), (3, 3), (4, 2), (5, 1)
+- Sum = 7: (1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1)
+- Sum = 8: (2, 6), (3, 5), (4, 4), (5, 3), (6, 2)
+- Sum = 9: (3, 6), (4, 5), (5, 4), (6, 3)
+
+### Step 3: Count the Favorable Outcomes
+Counting all these outcomes, we have:
+- 1 outcome for sum = 2
+- 2 outcomes for sum = 3
+- 3 outcomes for sum = 4
+- 4 outcomes for sum = 5
+- 5 outcomes for sum = 6
+- 6 outcomes for sum = 7
+- 5 outcomes for sum = 8
+- 4 outcomes for sum = 9
+
+The total number of favorable outcomes is:
+\[
+1 + 2 + 3 + 4 + 5 + 6 + 5 + 4 = 30
+\]
+
+### Step 4: Calculate the Probability
+The probability is the ratio of favorable outcomes to the total number of possible outcomes:
+\[
+\text{Probability} = \frac{30}{36} = \frac{5}{6}
+\]
+
+Thus, the probability that the sum of two dice will be at most 9 is \(\frac{5}{6}\).
