@@ -1,0 +1,24 @@
+To solve this, we can use basic probability and consider the possible outcomes for the genders of the two children.
+
+Assume that both children are equally likely to be boys or girls. Without any additional information, the possible combinations of the two children are:
+
+1. Boy (B), Boy (B)
+2. Boy (B), Girl (G)
+3. Girl (G), Boy (B)
+4. Girl (G), Girl (G)
+
+However, we are given that **at least one child is a boy**, so we can eliminate the possibility of both children being girls (Girl, Girl). This leaves us with the following possible outcomes:
+
+1. Boy (B), Boy (B)
+2. Boy (B), Girl (G)
+3. Girl (G), Boy (B)
+
+Out of these three remaining possibilities, only one corresponds to both children being boys: (Boy, Boy).
+
+Thus, the probability that both children are boys, given that at least one is a boy, is:
+
+\[
+\frac{1}{3}
+\]
+
+So the correct answer is **1/3**.
