@@ -1,0 +1,35 @@
+Let's solve this step by step:
+
+### Step 1: Understand the situation
+
+- There are **3 red marbles** and **4 blue marbles** in the bag. 
+- In total, there are **7 marbles** (3 red + 4 blue).
+- You are drawing **2 marbles** from the bag **without replacement**.
+- The first marble drawn is red, and you want to find the probability that the second marble drawn is blue.
+
+### Step 2: Analyze the situation after the first draw
+
+Since the first marble drawn is **red**, after this draw:
+- The number of marbles left in the bag is **6** (7 total marbles minus the 1 red marble drawn).
+- The number of **blue marbles left** is still **4** because none of the blue marbles were drawn yet.
+
+### Step 3: Calculate the probability
+Now, you want to find the probability that the second marble drawn is **blue**.
+
+The total number of possible outcomes for the second draw is **6** (since there are 6 marbles left in the bag).
+
+Out of these 6 marbles, **4 are blue**. Therefore, the probability that the second marble is blue is:
+
+{Number of blue marbles left}
+____________________________________
+t{Total number of marbles left}} 
+
+= 4
+_______
+   6
+
+= 2/3
+
+
+### Final Answer:
+The probability that the second marble is blue, given that the first marble drawn was red, is **2/3**.
